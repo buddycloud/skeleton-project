@@ -1,6 +1,6 @@
 $(window.document).ready(function() {
 
-  var socket = new Primus('//' + window.document.location.host)
+  var socket = new Buddycloud('//' + window.document.location.host)
 
   socket.on('error', function(error) { console.error(error) })
 

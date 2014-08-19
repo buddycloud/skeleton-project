@@ -1,11 +1,10 @@
 skeleton-project
 ================
 
-A skeleton project for starting to build XMPP projects using XMPP-FTW
+A skeleton project for starting to build Buddycloud projects using XMPP-FTW
 
+# Setup
 
-setup:
-------
 once checked out run:
 
 ```npm i```
@@ -16,4 +15,8 @@ once checked out run:
 
 ...which will start a server on port 3000
 
-Then visit [http://localhost:3000](http://localhost:3000)
+Then visit [http://localhost:3000/](http://localhost:3000)
+
+# License
+
+Apache 2.0

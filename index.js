@@ -37,12 +37,13 @@ var options = {
         'htmlfile',
         'xhr-polling',
         'jsonp-polling'
-    ]
+    ],
+    global: 'Buddycloud'
 }
 
 var primus = new Primus(server, options)
 primus.use('emitter', Emitter)
-primus.save(__dirname + '/public/scripts/primus.js')
+primus.save(__dirname + '/public/scripts/buddycloud.js')
 
 primus.on('connection', function(socket) {
     console.log('Websocket connection made')
